@@ -1,0 +1,168 @@
+{
+    "disasters": [
+        "Avalanche",
+        "Blizzard",
+        "Derecho",
+        "Drought",
+        "Small Earthquake",
+        "Large Earthquake",
+        "Wildfire",
+        "Urban Fire",
+        "Flood",
+        "Flash Flood",
+        "Heat Wave",
+        "Cold wave",
+        "Cold flash",
+        "Landslide",
+        "Ice storm",
+        "Tornado",
+        "Cyclone",
+        "Tsunami",
+        "Volcanic activity",
+        "Large Volcanic activity",
+        "Mining Disaster",
+        "Famine",
+        "Infected Stores",
+        "Plant Epidemic",
+        "Epidemic",
+        "Corruption",
+        "Military Riot",
+        "Civillian Riot",
+        "Decreasing relations",
+        "Sandstorm",
+        "Hurricane",
+        "Lightning",
+        "Freezing rain",
+        "Limnic eruption",
+        "Sinkhole",
+        "Coastal erosion",
+        "Duststorm",
+        "Firestorm",
+        "Hailstorm",
+        "Salinity",
+        "Invasive Species",
+        "Cross-species disease",
+        "overhunting",
+        "[Biome] fire",
+        "Overfishing",
+        "Harsh [season]",
+        "Local Eradication",
+        "Chronicle Erosion"
+    ],
+    "circles": {
+        "arctic_1": {
+            "opt": false,
+            "xmin": 2000,
+            "xmax": 6000,
+            "ymin": 0,
+            "ymax": 725,
+            "rmin": 50,
+            "rmax": 175,
+            "cmin": 2,
+            "cmax": 2
+        },
+        "arctic_2": {
+            "opt": false,
+            "xmin": 2000,
+            "xmax": 6000,
+            "ymin": 725,
+            "ymax": 1020,
+            "rmin": 50,
+            "rmax": 175,
+            "cmin": 1,
+            "cmax": 1
+        },
+        "tropical_1": {
+            "opt": false,
+            "xmin": 4320,
+            "xmax": 5250,
+            "ymin": 450,
+            "ymax": 1250,
+            "rmin": 50,
+            "rmax": 175,
+            "cmin": 2,
+            "cmax": 4
+        },
+        "austral_1": {
+            "opt": false,
+            "xmin": 3200,
+            "xmax": 4620,
+            "ymin": 1000,
+            "ymax": 1850,
+            "rmin": 50,
+            "rmax": 175,
+            "cmin": 2,
+            "cmax": 4
+        },
+        "piss_1": {
+            "opt": false,
+            "xmin": 4550,
+            "xmax": 5350,
+            "ymin": 1200,
+            "ymax": 1800,
+            "rmin": 50,
+            "rmax": 175,
+            "cmin": 2,
+            "cmax": 3
+        },
+        "piss_2": {
+            "opt": true,
+            "opt_1": {
+                "xmin": 5350,
+                "xmax": 5990,
+                "ymin": 1200,
+                "ymax": 1800,
+                "rmin": 50,
+                "rmax": 175
+            },
+            "opt_2": {
+                "xmin": 2200,
+                "xmax": 2220,
+                "ymin": 1200,
+                "ymax": 1800,
+                "rmin": 50,
+                "rmax": 175
+            }
+        },
+        "island_1": {
+            "opt": false,
+            "xmin": 2300,
+            "xmax": 3300,
+            "ymin": 900,
+            "ymax": 1570,
+            "rmin": 50,
+            "rmax": 175,
+            "cmin": 2,
+            "cmax": 3
+        },
+        "island_2": {
+            "opt": true,
+            "opt_1": {
+                "xmin": 2000,
+                "xmax": 2300,
+                "ymin": 720,
+                "ymax": 1140,
+                "rmin": 50,
+                "rmax": 175
+            },
+            "opt_2": {
+                "xmin": 5370,
+                "xmax": 5990,
+                "ymin": 580,
+                "ymax": 880,
+                "rmin": 50,
+                "rmax": 175
+            }
+        }
+    },
+    "blacklist": {
+        "arctic_1": ["sandstorm", "Firestorm"],
+        "arctic_2": ["sandstorm", "Firestorm"],
+        "austral_1": [],
+        "tropical_1": [],
+        "piss_1": [],
+        "piss_2": [],
+        "island_1": [],
+        "island_2": []
+    }
+}
